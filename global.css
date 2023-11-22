@@ -1,7 +1,7 @@
 :root {
-  --primary: #ffffff;
+  --primary: #685cd1;
   --secondary: #ff4a11;
-  --secondary-light: #fddcd2;
+  --secondary-light: #34c782;
   --white: #ffffff;
   --black: #252629;
   --ff-primary: sans-serif;
@@ -35,9 +35,20 @@ p {
 }
 
 body {
+  display: flex;
+  flex-direction: column;
   line-height: 1.5;
   font-family: var(--ff-primary);
   color: var(--black);
+  background-color: slategray;
+}
+
+@media (min-width: 1200px) {
+  body {
+    justify-content: center;
+    margin: auto;
+    width: 900px;
+  }
 }
 
 button {
