@@ -1,8 +1,9 @@
-.form {
+/* .form {
   display: flex;
   flex-direction: column;
   width: 500px;
   margin: 0 auto;
+  margin-top: 10rem;
   padding: 20px;
   background-color: #fff;
   border-radius: 5px;
@@ -24,4 +25,55 @@
   background-color: #007bff;
   color: #fff;
   padding: 10px 20px;
+}
+ */
+
+.form {
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 10rem;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form textarea,
+.form input {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+.form button {
+  display: inline-block;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Specific fieldset styles */
+fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+fieldset label {
+  margin-bottom: 0;
+}
+
+fieldset textarea,
+fieldset input {
+  margin-bottom: 10px;
 }
