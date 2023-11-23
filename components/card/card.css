@@ -8,14 +8,18 @@
 .card__question {
   margin: 0 0 2rem;
 }
+.card__button-answer ~ span.hidden {
+  display: none;
+}
 
-.card__button-answer {
+.card__button-answer + span {
   background: var(--secondary);
   color: var(--white);
   border: none;
   display: block;
   margin: 0 auto 2rem auto;
   padding: 1rem;
+  margin-top: 1rem;
 }
 
 .card__button-answer:hover {
